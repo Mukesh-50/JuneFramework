@@ -19,7 +19,7 @@ public class BaseClass
 		return driver;
 	}
 	
-	// pass parameter while building
+	// pass parameter while building or while running testcases
 	@Parameters({"Browser","URL"})
 	@BeforeClass
 	public void setup(String browserName,String applicationURL)
